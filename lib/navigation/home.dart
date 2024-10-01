@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
         child: Text('Inicio'),
       ),
       floatingActionButton: FloatingActionButton(
-          onPressed: () => Navigator.pushNamed(context, '/'),
+          onPressed: () => Navigator.pushNamed(context, '/top'),
           backgroundColor: Colors.pink[500],
           foregroundColor: Colors.white,
           child: const Icon(Icons.home)),
